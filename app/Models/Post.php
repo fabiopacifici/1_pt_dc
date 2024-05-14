@@ -5,9 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Comic extends Model
+class Post extends Model
 {
     use HasFactory;
-
-    protected $fillable = ['title', 'thumb', 'series', 'sale_date', 'type', 'price', 'description'];
 }
